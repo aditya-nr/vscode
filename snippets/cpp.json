@@ -1,0 +1,34 @@
+{
+    "basic snippet": {
+        "prefix": "basic",
+        "body": [
+            "/**",
+            " * $1",
+            " */",
+            "",
+            "#include <vector>",
+            "#include<algorithm>",
+            "#define vi vector<int>",
+            "#define vs vector<string>",
+            "#define vvi vector<vector<int>>",
+            "#define loop(i,s,e) for(int i=(a);i<=(b);i+=1)",
+            "#define logarr(arr,s,e) for(int i=(s);i<=(e);i++)cout<<(arr[i])",
+            "#include<iostream>",
+            "using namespace std;",
+            "$2",
+            "int main()",
+            "{",
+            "    $3",
+            "    return 0;",
+            "}"
+        ],
+        "description": "c++ basic"
+    },
+    "cout snippet 1": {
+        "prefix": "print",
+        "body": [
+            "cout<<\"$1\"<<endl;"
+        ],
+        "description": "c++ basic"
+    }
+}
